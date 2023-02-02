@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background:url('https://images.unsplash.com/photo-1621274403997-37aace184f49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.upcont{
+    display: flex;
+    height: 65%;
+    /* border: 5px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-weight: 100;
+}
+.time{
+    font-size: 70px;
+}
+span{
+    font-size: 30px;
+}
+.date{
+    font-size: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #3b332c;
+    border-radius: 10px;
+    padding: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.down{
+    height: 35%;
+    background-color: rgba(24, 24, 27, 0.908);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.currentcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    width: 500px;
+    border-radius: 10px;
+    margin:40px 15px 40px 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: large;
+    font-weight: 400;
+    padding: 0 30px;
+}
+.snallcards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: smaller;
+    font-weight: 300;
+}
+.cardsall{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+}
+.location{
+    font-size: 30px;
+    font-weight: 500;
+}
+.lat{
+    font-weight: 300;
+}
+#weeks,#day{
+    background-color: #3c3c44;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+
+
